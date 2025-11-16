@@ -47,21 +47,16 @@
 
       <div class="card">
         <h2>Schedule a Consultation</h2>
-        <form id="contactForm" action="https://formsubmit.co/puranbhat@rediffmail.com" method="POST">
-
-  <!-- FormSubmit Settings -->
-  <input type="hidden" name="_subject" value="New Consultation Request from Website">
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_template" value="box">
-
-  <!-- Redirect to Thank-You Page After Submit -->
-  <input type="hidden" name="_next" value="https://123vgyh.github.io/thankyou.html">
+       <form action="https://formspree.io/f/xkgkqpkk" method="POST">
+  
+  <!-- Redirect to thank-you page after submit -->
+  <input type="hidden" name="_redirect" value="https://123vgyh.github.io/thankyou.html">
 
   <label>
     Name
     <input type="text" name="name" required />
   </label>
-
+  
   <label>
     Email
     <input type="email" name="email" required />
@@ -81,8 +76,8 @@
     <button type="submit" class="btn primary">Send</button>
     <a class="btn ghost" href="tel:+919871731193">Call now</a>
   </div>
-
 </form>
+
    </div>
     </div>
   </main>
